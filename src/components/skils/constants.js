@@ -1,46 +1,46 @@
 export const SKILLS_LIST = [
   {
     lable: "HTML",
-    path: "/../public/skills/html.png",
+    path: "/static/html.png",
   },
   {
     lable: "CSS",
-    path: "/../public/skills/css.png",
+    path: "/static/css.png",
   },
   {
     lable: "REACT",
-    path: "/../public/skills/react.png",
+    path: "/static/react.png",
   },
   {
     lable: "JAVASCRIPT",
-    path: "/../public/skills/javascript.png",
+    path: "/static/javascript.png",
   },
   {
     lable: "TAILWINDCSS",
-    path: "/../public/skills/tailwind.png",
+    path: "/static/tailwind.png",
   },
   {
     lable: "NODE",
-    path: "/../public/skills/node.png",
+    path: "/static/node.png",
   },
   {
     lable: "NEXT",
-    path: "/../public/skills/nextjs.png",
+    path: "/static/nextjs.png",
   },
   {
     lable: "REDUX",
-    path: "/../public/skills/redux.png",
+    path: "/static/redux.png",
   },
   {
     lable: "TYPESCRIPT",
-    path: "/../public/skills/typescript.png",
+    path: "/static/typescript.png",
   },
   {
     lable: "GITHUB",
-    path: "/../public/skills/github1.png",
+    path: "/static/github1.png",
   },
   {
     lable: "GRAPHQL",
-    path: "/../public/skills/graphql.png",
+    path: "/static/graphql.png",
   },
 ];

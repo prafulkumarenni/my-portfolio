@@ -3,7 +3,6 @@ import Link from "next/link";
 import React from "react";
 import ContactForm from "./contact-form";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-// import ContactImage from "../../../public/contact.jpg";
 
 const Contacts = () => {
   return (
