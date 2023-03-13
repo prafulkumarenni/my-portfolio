@@ -18,7 +18,13 @@ const Skills = () => {
             >
               <div className="grid grid-cols02 gap-4 justify-center items-center">
                 <div className="m-auto">
-                  <Image src={item.path} alt="" width={64} height={64} />
+                  <Image
+                    src={item.path}
+                    alt="skills image"
+                    // className="w-[64-x] h-[64px]"
+                    width={64}
+                    height={64}
+                  />
                 </div>
                 <div>
                   <h3>{item.lable}</h3>
