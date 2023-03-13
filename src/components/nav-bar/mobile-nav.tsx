@@ -7,9 +7,10 @@ import { NAV_ITEMS } from "./constant";
 interface MobileNavProps {
   nav: boolean;
   handleNav: () => void;
+  setNav: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const MobileNav = ({ nav, handleNav }: MobileNavProps) => {
+const MobileNav = ({ nav, handleNav, setNav }: MobileNavProps) => {
   return (
     <div>
       <div

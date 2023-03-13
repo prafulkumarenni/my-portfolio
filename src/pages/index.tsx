@@ -4,7 +4,7 @@ import Intro from "@/components/intro/intro";
 import About from "@/components/about/about";
 import Contacts from "@/components/contact-me/contacts";
 import Skills from "@/components/skils/skills";
-import Projects from "@/components/projects/project";
+// import Projects from "@/components/projects/project";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +20,7 @@ export default function Home() {
       <Intro />
       <About />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Contacts />
     </>
   );

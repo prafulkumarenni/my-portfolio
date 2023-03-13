@@ -16,7 +16,7 @@ const Navbar = () => {
         <h1 className="text-[#ecf0f3] ">Praful Kumar Enni</h1>
         <DesktopNav handleNav={handleNav} />
       </div>
-      <MobileNav nav={nav} handleNav={handleNav} />
+      <MobileNav nav={nav} handleNav={handleNav} setNav={setNav} />
     </div>
   );
 };
