@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import ContactForm from "./contact-form";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import ContactImage from "../../../public/contact.jpg";
 
 const Contacts = () => {
   return (
@@ -18,7 +19,7 @@ const Contacts = () => {
               <div className="lg:p-4 h-full">
                 <div>
                   <Image
-                    src="/../public/contact.jpg"
+                    src={ContactImage}
                     alt="/"
                     width={300}
                     height={400}
