@@ -22,7 +22,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/components/nav-bar/nav-bar.jsx",
+    "src/components/nav-bar/nav-bar.tsx",
     "src/components/nav-bar/sx"
   ],
   "exclude": ["node_modules"]

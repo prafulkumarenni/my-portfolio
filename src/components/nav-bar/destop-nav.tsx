@@ -3,7 +3,11 @@ import React from "react";
 import { NAV_ITEMS } from "./constant";
 import { AiOutlineMenu } from "react-icons/ai";
 
-const DestopNav = ({ handleNav }) => {
+interface DesktopNavProps {
+  handleNav: () => void;
+}
+
+const DesktopNav = ({ handleNav }: DesktopNavProps) => {
   return (
     <div>
       <ul className=" hidden md:flex">
@@ -22,4 +26,4 @@ const DestopNav = ({ handleNav }) => {
   );
 };
 
-export default DestopNav;
+export default DesktopNav;

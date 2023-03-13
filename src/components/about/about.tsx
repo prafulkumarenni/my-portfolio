@@ -3,10 +3,6 @@ import React from "react";
 import { BsBracesAsterisk } from "react-icons/bs";
 import { SUMMARY_ITEMS } from "./constants";
 
-interface item {
-  value: String;
-}
-
 const About = () => {
   return (
     <div id="about" className="w-full lg:h-screen p-2 flex items-center py-16">

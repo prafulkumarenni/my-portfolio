@@ -14,7 +14,6 @@ const Contacts = () => {
         <h2>Get In Touch</h2>
         <div className="lg:flex">
           <div className="grid h-min">
-            {/* left */}
             <div className="col-span-3 lg:col-span-2 w-full h-full rounded-xl p-4">
               <div className="lg:p-4 h-full">
                 <div>

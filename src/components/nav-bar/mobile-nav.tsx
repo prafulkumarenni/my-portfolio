@@ -4,7 +4,12 @@ import { AiOutlineClose } from "react-icons/ai";
 import SocialLinks from "../global/social-links";
 import { NAV_ITEMS } from "./constant";
 
-const MobileNav = ({ nav, handleNav }) => {
+interface MobileNavProps {
+  nav: boolean;
+  handleNav: () => void;
+}
+
+const MobileNav = ({ nav, handleNav }: MobileNavProps) => {
   return (
     <div>
       <div
